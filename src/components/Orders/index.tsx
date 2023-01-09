@@ -10,7 +10,6 @@ const orders: Order[] = [
     "products": [
       {
         "product": {
-
           "name": "Coca-Cola",
           "imagePath": "1668698004471-coca-cola.png",
           "price": 7,
@@ -20,7 +19,15 @@ const orders: Order[] = [
       },
       {
         "product": {
-
+          "name": "Pizza quatro queijos",
+          "imagePath": "1668697016528-quatro-queijos.png",
+          "price": 40,
+        },
+        "quantity": 2,
+        "_id": "63764bb8c25b410f94448943",
+      },
+      {
+        "product": {
           "name": "Coca-Cola",
           "imagePath": "1668698004471-coca-cola.png",
           "price": 7,

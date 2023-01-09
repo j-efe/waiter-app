@@ -9,7 +9,7 @@ flex-direction: column;
 align-items: center;
 flex: 1;
 
-header {
+ > header { //">" só se aplica a filhos diretos
   padding: 0.8rem;
   font-size: 1.4rem;
 
