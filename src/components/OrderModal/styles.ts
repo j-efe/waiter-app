@@ -117,5 +117,37 @@ margin-top: 3.2rem;
     opacity: 0.8;
   }
 
+  strong {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
 }
+`;
+
+export const Actions = styled.footer`
+display: flex;
+flex-direction: column;
+margin-top: 3.2rem;
+
+.primary {
+  background-color: #333333;
+  border-radius: 4.8rem;
+  border: 0;
+  color: #fff;
+  padding: 1.1rem 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+  .secondary {
+    padding: 1.4rem 2.4rem;
+    color: #D73035;
+    font-weight: bold;
+    border: 0;
+    background: transparent;
+    margin-top: 1rem;
+  }
 `;
